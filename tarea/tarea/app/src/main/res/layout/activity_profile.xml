@@ -28,7 +28,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            tools:text="cheezycode@gmail.com"
+            tools:text="tarea@gmail.com"
             android:textColor="@android:color/white" />
     </LinearLayout>
 
