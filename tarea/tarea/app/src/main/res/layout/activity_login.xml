@@ -23,7 +23,7 @@
             style="@style/TextAppearance.AppCompat.Title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Login Now" />
+            android:text="Login " />
 
         <TextView
             android:textColor="@color/colorPrimaryText"
@@ -31,7 +31,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:text="Please login to continue using app" />
+             />
 
         <EditText
             android:background="@drawable/edit_text_background"
@@ -71,7 +71,7 @@
             android:layout_marginTop="24dp"
             android:textAlignment="center"
             android:textColor="@color/colorPrimaryText"
-            android:text="Don't have an account? Signup" />
+            android:text="Crear cuenta" />
     </LinearLayout>
 
     <ImageView
@@ -79,7 +79,7 @@
         android:layout_width="0dp"
         android:layout_height="120dp"
         android:scaleType="centerCrop"
-        android:src="@drawable/ic_wave"
+
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />

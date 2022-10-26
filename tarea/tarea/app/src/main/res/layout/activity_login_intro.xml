@@ -12,7 +12,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAlignment="center"
-        android:text="Isn’t life a collection of weird quizzes with \n no answers to half the questions"
+        android:text="Empezar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -23,7 +23,7 @@
         style="@style/TextAppearance.AppCompat.Headline"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Welcome To Quiz Master"
+
         android:layout_marginBottom="16dp"
         app:layout_constraintBottom_toTopOf="@+id/txtLoginSubHeader"
         app:layout_constraintEnd_toEndOf="parent"
@@ -34,26 +34,26 @@
         android:id="@+id/imageView"
         android:layout_width="180dp"
         android:layout_height="180dp"
-        android:src="@drawable/ic_quiz_login_hero_image"
+
         app:layout_constraintBottom_toTopOf="@+id/txtLoginHeader"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         />
 
     <Button
-        android:textColor="@color/colorPrimaryButton"
-        android:background="@drawable/btn_primary"
         android:id="@+id/btnGetStarted"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_width="179dp"
+        android:layout_height="66dp"
         android:layout_marginTop="32dp"
+        android:background="@drawable/btn_primary"
         android:text="Get Started"
+        android:textColor="@color/colorPrimaryButton"
         app:layout_constraintEnd_toEndOf="@+id/txtLoginSubHeader"
         app:layout_constraintStart_toStartOf="@+id/txtLoginSubHeader"
         app:layout_constraintTop_toBottomOf="@+id/txtLoginSubHeader" />
 
     <ImageView
-        android:src="@drawable/ic_wave"
+
         android:layout_width="0dp"
         android:layout_height="120dp"
         android:scaleType="centerCrop"
